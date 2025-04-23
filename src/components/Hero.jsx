@@ -20,30 +20,6 @@ const Hero = () => {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">About Us</h2>
-          <p className="text-gray-600 text-lg">We are creators, innovators, and dreamers building experiences powered by AI and human imagination.</p>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-          <p className="text-gray-600 text-lg">From AI artwork to digital tools — we provide everything you need to grow creatively.</p>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Testimonials</h2>
-          <p className="text-gray-600 text-lg">Hear from those who’ve worked with us and turned their vision into reality.</p>
-        </div>
-      </section>
-
       {/* Newsletter Section */}
       <section id="newsletter" className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-600 text-white text-center">
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
