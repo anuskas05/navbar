@@ -3,13 +3,13 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
-
- 
+import AboutUs from './components/AboutUs'; // If you're using this, skip AboutPage
+import Contact from './components/Contact';
+import OurService from './components/OurService';
 import Hero from './components/Hero';
-import AboutPage from './pages/AboutPage';
+// import AboutPage from './pages/AboutPage'; // remove if not using
 import ToolsPage from './pages/ToolsPage';
- 
+import Products from './components/Products'; 
 
 function App() {
   return (
@@ -17,14 +17,15 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/tools" element={<ToolsPage />} />
-    
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/ourservices" element={<OurService />} />
+        <Route path="/Products" element={<Products />} />
       </Routes>
-      <Footer/> 
+      <Footer />
     </>
   );
 }
 
 export default App;
-
